@@ -1,0 +1,10 @@
+{
+  "id": "template-026",
+  "slug": "cleaning-service",
+  "name": "Cleaning Service",
+  "industry": "清潔服務",
+  "layoutFamily": "I. Dashboard / Data 信任型",
+  "layoutProfile": "combinatorial-hero-split-left-block_services_tabs-block_about_centered-block_stats_counter",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

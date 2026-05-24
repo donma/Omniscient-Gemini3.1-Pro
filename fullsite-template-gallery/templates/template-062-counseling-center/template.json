@@ -1,0 +1,10 @@
+{
+  "id": "template-062",
+  "slug": "counseling-center",
+  "name": "心理諮商中心",
+  "industry": "心理諮商",
+  "layoutFamily": "B. 左右分割 Split Layout",
+  "layoutProfile": "combinatorial-hero-bento-stats-block_services_tabs-block_about_centered-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

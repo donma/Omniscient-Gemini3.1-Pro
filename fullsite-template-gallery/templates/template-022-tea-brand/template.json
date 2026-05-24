@@ -1,0 +1,10 @@
+{
+  "id": "template-022",
+  "slug": "tea-brand",
+  "name": "Tea Brand",
+  "industry": "茶飲品牌",
+  "layoutFamily": "C. Magazine 雜誌式首頁",
+  "layoutProfile": "combinatorial-hero-bento-stats-block_about_centered-block_services_list-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

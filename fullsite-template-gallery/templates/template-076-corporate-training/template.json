@@ -1,0 +1,10 @@
+{
+  "id": "template-076",
+  "slug": "corporate-training",
+  "name": "企業內訓顧問",
+  "industry": "企業培訓",
+  "layoutFamily": "B. 左右分割 Split Layout",
+  "layoutProfile": "combinatorial-hero-centered-minimal-block_about_centered-block_services_list-block_stats_counter",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

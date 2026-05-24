@@ -1,0 +1,22 @@
+{
+  "industry": [
+    "烘焙甜點"
+  ],
+  "colors": [
+    "淺色系",
+    "奶油色"
+  ],
+  "features": [
+    "Slider Banner",
+    "服務列表",
+    "顧客好評",
+    "FAQ",
+    "表單假送出"
+  ],
+  "layout": [
+    "商品型 Grid Catalog",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "餐飲甜點"
+}

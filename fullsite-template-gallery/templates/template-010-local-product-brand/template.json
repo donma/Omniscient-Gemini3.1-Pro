@@ -1,0 +1,10 @@
+{
+  "id": "template-010",
+  "slug": "local-product-brand",
+  "name": "Local Product Brand",
+  "industry": "商品展示",
+  "layoutFamily": "C. Magazine 雜誌式首頁",
+  "layoutProfile": "combinatorial-hero-split-left-block_about_centered-block_services_list-block_portfolio_grid",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

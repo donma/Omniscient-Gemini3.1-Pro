@@ -1,0 +1,29 @@
+{
+  "industry": [
+    "AI SaaS",
+    "B2B",
+    "新創科技",
+    "軟體服務"
+  ],
+  "colors": [
+    "深色系",
+    "科技漸層",
+    "藍紫色"
+  ],
+  "features": [
+    "產品特色",
+    "價格方案",
+    "Demo CTA",
+    "案例展示",
+    "FAQ",
+    "表單假送出",
+    "強 SEO",
+    "Organization Schema"
+  ],
+  "layout": [
+    "Dashboard / Data 信任型",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "科技商務"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "template-033",
+  "slug": "cyber-security",
+  "name": "Cyber Security",
+  "industry": "資安服務",
+  "layoutFamily": "I. Dashboard / Data 信任型",
+  "layoutProfile": "combinatorial-hero-countdown-block_services_tabs-block_about_centered-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

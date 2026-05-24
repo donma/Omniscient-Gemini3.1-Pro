@@ -1,0 +1,10 @@
+{
+  "id": "template-021",
+  "slug": "bakery-brand",
+  "name": "Bakery Brand",
+  "industry": "烘焙甜點",
+  "layoutFamily": "E. 商品型 Grid Catalog",
+  "layoutProfile": "combinatorial-hero-video-bg-block_about_split-block_stats_counter-block_services_grid3",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

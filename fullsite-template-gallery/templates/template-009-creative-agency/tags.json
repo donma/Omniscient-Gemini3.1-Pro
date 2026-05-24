@@ -1,0 +1,27 @@
+{
+  "industry": [
+    "設計公司",
+    "品牌設計",
+    "服務型網站"
+  ],
+  "colors": [
+    "深色系",
+    "高對比現代",
+    "電光紫系"
+  ],
+  "features": [
+    "Slider Banner",
+    "專案案例展示",
+    "服務項目",
+    "顧客好評",
+    "FAQ",
+    "專案提案表單",
+    "Instagram 連結"
+  ],
+  "layout": [
+    "Dashboard / Data 信任型",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "創意設計"
+}

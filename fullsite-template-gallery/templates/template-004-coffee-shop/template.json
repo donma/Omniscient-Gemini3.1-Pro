@@ -1,0 +1,10 @@
+{
+  "id": "template-004",
+  "slug": "coffee-shop",
+  "name": "Coffee Shop",
+  "industry": "咖啡甜點",
+  "layoutFamily": "E. 商品型 Grid Catalog",
+  "layoutProfile": "combinatorial-hero-centered-minimal-block_about_centered-block_services_list-block_portfolio_masonry",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

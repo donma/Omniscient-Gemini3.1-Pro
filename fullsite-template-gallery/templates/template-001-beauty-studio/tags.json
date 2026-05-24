@@ -1,0 +1,31 @@
+{
+  "industry": [
+    "美容美學",
+    "個人工作室",
+    "服務型網站"
+  ],
+  "colors": [
+    "奶茶色",
+    "淺色系",
+    "粉棕色"
+  ],
+  "features": [
+    "Slider Banner",
+    "服務列表",
+    "作品集",
+    "顧客好評",
+    "FAQ",
+    "預約須知",
+    "Line 預約",
+    "Instagram 連結",
+    "地圖區塊",
+    "強 SEO",
+    "LocalBusiness Schema"
+  ],
+  "layout": [
+    "大圖沉浸式 Hero",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "美容健康"
+}

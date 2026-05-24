@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全職設計視角 | 精緻響應式 AI 網頁樣板庫</title>
+    <meta name="description" content="全職設計視角為您提供極致美感、完全響應式（RWD）的靜態網站樣板。每一套皆為 12 頁完整規劃，附帶生成式 AI Prompt 及結構化 Schema.org 資料。">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    
+    <style>
+        /* Glowing background blobs */
+        .glowing-blob {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(108, 93, 211, 0.06) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .blob-1 { top: -10%; left: -10%; }
+        .blob-2 { bottom: -10%; right: -10%; }
+        
+        /* Modern subtle improvements */
+        .gallery-header {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(10, 11, 16, 0.85) !important;
+        }
+        .search-input-group {
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: all 0.3s ease;
+        }
+        .search-input-group:focus-within {
+            border-color: var(--primary);
+            box-shadow: 0 0 10px rgba(108, 93, 211, 0.2);
+        }
+        .search-input-group input {
+            box-shadow: none !important;
+        }
+        
+        .gallery-sidebar {
+            background: rgba(10, 11, 16, 0.95);
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .filter-title {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-white);
+            opacity: 0.9;
+        }
+        
+        /* Premium Card style */
+        .template-card {
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(255, 255, 255, 0.015);
+        }
+        .template-card:hover {
+            border-color: rgba(108, 93, 211, 0.3);
+            background: rgba(255, 255, 255, 0.03);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="glowing-blob blob-1"></div>
+    <div class="glowing-blob blob-2"></div>
+
+    <!-- Header Navigation -->
+    <header class="gallery-header fixed-top">
+        <div class="container-fluid px-4 py-3 d-flex align-items-center justify-content-between">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <span class="fs-4 fw-bold brand-title"><i class="bi bi-compass-fill me-2 text-primary"></i>全職設計視角</span>
+            </a>
+            
+            <!-- Global Search -->
+            <div class="d-flex align-items-center gap-3 flex-fill mx-lg-5 px-lg-5" style="max-width: 600px;">
+                <div class="input-group search-input-group w-100">
+                    <span class="input-group-text border-0 bg-dark text-muted"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control border-0 bg-dark text-white rounded-end" id="searchInput" placeholder="搜尋產業、風格或標籤...">
+                </div>
+            </div>
+
+            <!-- Toggler for Mobile Filter -->
+            <div class="d-flex align-items-center gap-2">
+                <button class="btn btn-outline-light border-0 d-lg-none" id="sidebarToggle" title="展開篩選器">
+                    <i class="bi bi-funnel fs-4"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Layout Wrapper -->
+    <div class="gallery-wrapper">
+        
+        <!-- Sidebar Filters -->
+        <aside class="gallery-sidebar" id="gallerySidebar">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h5 class="text-white fw-bold mb-0">篩選條件</h5>
+                <a href="index.html" class="text-accent text-decoration-none small"><i class="bi bi-arrow-counterclockwise"></i> 重設</a>
+            </div>
+
+            <!-- Industry Filter -->
+            
+            <div class="filter-group">
+                <span class="filter-title"><i class="bi bi-grid"></i> 產業類型</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-0" value="全部" checked>
+                    <label class="form-check-label" for="ind-0">全部</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-1" value="餐飲甜點">
+                    <label class="form-check-label" for="ind-1">餐飲甜點</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-2" value="美容健康">
+                    <label class="form-check-label" for="ind-2">美容健康</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-3" value="零售商品">
+                    <label class="form-check-label" for="ind-3">零售商品</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-4" value="專業服務">
+                    <label class="form-check-label" for="ind-4">專業服務</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-5" value="教育課程">
+                    <label class="form-check-label" for="ind-5">教育課程</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-6" value="創意設計">
+                    <label class="form-check-label" for="ind-6">創意設計</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-7" value="空間生活">
+                    <label class="form-check-label" for="ind-7">空間生活</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-8" value="旅遊休閒">
+                    <label class="form-check-label" for="ind-8">旅遊休閒</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-9" value="科技商務">
+                    <label class="form-check-label" for="ind-9">科技商務</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-10" value="地方品牌">
+                    <label class="form-check-label" for="ind-10">地方品牌</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-11" value="個人品牌">
+                    <label class="form-check-label" for="ind-11">個人品牌</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-industry" id="ind-12" value="活動組織">
+                    <label class="form-check-label" for="ind-12">活動組織</label>
+                </div>
+            </div>
+
+            <!-- Color Tone Filter -->
+            <div class="filter-group">
+                <span class="filter-title"><i class="bi bi-brightness-high"></i> 明暗基調</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-tone" id="tone-all" value="全部" checked>
+                    <label class="form-check-label" for="tone-all">全部</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-tone" id="tone-light" value="淺色系">
+                    <label class="form-check-label" for="tone-light">淺色系</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-tone" id="tone-dark" value="深色系">
+                    <label class="form-check-label" for="tone-dark">深色系</label>
+                </div>
+            </div>
+
+            <!-- Color Theme Filter -->
+            <div class="filter-group">
+                <span class="filter-title"><i class="bi bi-brush"></i> 視覺色系</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-all" value="全部" checked>
+                    <label class="form-check-label" for="col-all">全部</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-milktea" value="奶茶色">
+                    <label class="form-check-label" for="col-milktea">奶茶色</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-gold" value="黑金色">
+                    <label class="form-check-label" for="col-gold">黑金色</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-minimal" value="白灰極簡">
+                    <label class="form-check-label" for="col-minimal">白灰極簡</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-brown" value="暖棕生活">
+                    <label class="form-check-label" for="col-brown">暖棕生活</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-color-group" id="col-green" value="綠色自然">
+                    <label class="form-check-label" for="col-green">綠色自然</label>
+                </div>
+            </div>
+
+            
+            <!-- Features Filter -->
+            <div class="filter-group">
+                <span class="filter-title"><i class="bi bi-check-circle"></i> 功能模組</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-0" value="Slider Banner">
+                    <label class="form-check-label" for="feat-0">Slider Banner</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-1" value="服務列表">
+                    <label class="form-check-label" for="feat-1">服務列表</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-2" value="商品分類">
+                    <label class="form-check-label" for="feat-2">商品分類</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-3" value="作品集">
+                    <label class="form-check-label" for="feat-3">作品集</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-4" value="顧客好評">
+                    <label class="form-check-label" for="feat-4">顧客好評</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-5" value="FAQ">
+                    <label class="form-check-label" for="feat-5">FAQ</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-6" value="預約須知">
+                    <label class="form-check-label" for="feat-6">預約須知</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-7" value="地圖區塊">
+                    <label class="form-check-label" for="feat-7">地圖區塊</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-8" value="Line 預約">
+                    <label class="form-check-label" for="feat-8">Line 預約</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-9" value="Instagram 連結">
+                    <label class="form-check-label" for="feat-9">Instagram 連結</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-10" value="強 SEO">
+                    <label class="form-check-label" for="feat-10">強 SEO</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-11" value="Demo CTA">
+                    <label class="form-check-label" for="feat-11">Demo CTA</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-12" value="價格方案">
+                    <label class="form-check-label" for="feat-12">價格方案</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-13" value="產品特色">
+                    <label class="form-check-label" for="feat-13">產品特色</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-14" value="解決方案">
+                    <label class="form-check-label" for="feat-14">解決方案</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-15" value="案例詳情">
+                    <label class="form-check-label" for="feat-15">案例詳情</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-16" value="講師介紹">
+                    <label class="form-check-label" for="feat-16">講師介紹</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-17" value="作品集導向">
+                    <label class="form-check-label" for="feat-17">作品集導向</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-18" value="議程列表">
+                    <label class="form-check-label" for="feat-18">議程列表</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-19" value="捐款 CTA">
+                    <label class="form-check-label" for="feat-19">捐款 CTA</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="filter-feature" id="feat-20" value="圖片豐富">
+                    <label class="form-check-label" for="feat-20">圖片豐富</label>
+                </div>
+            </div>
+
+            <!-- Layout Filter -->
+            <div class="filter-group">
+                <span class="filter-title"><i class="bi bi-layout-text-window"></i> 版型家族</span>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-all" value="全部" checked>
+                    <label class="form-check-label" for="lay-all">全部</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-a" value="A. 大圖沉浸式 Hero">
+                    <label class="form-check-label" for="lay-a">A. 大圖沉浸式 Hero</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-b" value="B. 左右分割 Split Layout">
+                    <label class="form-check-label" for="lay-b">B. 左右分割 Split Layout</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-c" value="C. Magazine 雜誌式首頁">
+                    <label class="form-check-label" for="lay-c">C. Magazine 雜誌式首頁</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-d" value="D. Masonry 作品牆">
+                    <label class="form-check-label" for="lay-d">D. Masonry 作品牆</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-e" value="E. 商品型 Grid Catalog">
+                    <label class="form-check-label" for="lay-e">E. 商品型 Grid Catalog</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-f" value="F. Storytelling 長卷軸">
+                    <label class="form-check-label" for="lay-f">F. Storytelling 長卷軸</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-g" value="G. Bento Grid 現代資訊版">
+                    <label class="form-check-label" for="lay-g">G. Bento Grid 現代資訊版</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-h" value="H. Editorial Split 文字導向">
+                    <label class="form-check-label" for="lay-h">H. Editorial Split 文字導向</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-i" value="I. Dashboard / Data 信任型">
+                    <label class="form-check-label" for="lay-i">I. Dashboard / Data 信任型</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="filter-layout" id="lay-j" value="J. Event / Campaign 活動型">
+                    <label class="form-check-label" for="lay-j">J. Event / Campaign 活動型</label>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="gallery-content">
+            <!-- Hero banner text -->
+            <div class="py-5 px-4 mb-5 rounded-4 position-relative overflow-hidden" style="background: linear-gradient(135deg, rgba(108, 93, 211, 0.15) 0%, rgba(0, 242, 254, 0.03) 100%); border: 1px solid rgba(255, 255, 255, 0.05);">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-8">
+                        <h1 class="display-6 fw-bold text-white mb-2">精選響應式網頁樣板</h1>
+                        <p class="lead text-light mb-0">提供可直接交付的高品質 12 頁全站靜態網頁系統，內建 Prompt 設計系統。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Templates Grid -->
+            <div class="row" id="templatesGrid">
+                <!-- Dynamically Rendered via JS -->
+            </div>
+        </main>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+/* T10 Local Product Custom CSS */
+:root {
+    --primary: #556B2F;
+    --bg: #F5F5DC;
+    --text: #2F4F4F;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Noto Sans TC', sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 700; color: var(--primary); }
+
+.navbar { display: flex; justify-content: center; padding: 2rem; position: relative; z-index: 10; border-bottom: 2px dashed rgba(85,107,47,0.3); }
+.logo { font-size: 2rem; font-weight: bold; color: var(--primary); text-decoration: none; text-transform: uppercase; letter-spacing: 3px; }
+
+.hero-section { padding: 6rem 5%; text-align: center; }
+.hero-section h1 { font-size: 4rem; margin-bottom: 1.5rem; }
+.hero-section p { font-size: 1.2rem; color: #555; max-width: 600px; margin: 0 auto 3rem; line-height: 1.8; }
+
+.carousel-container { display: flex; gap: 2rem; overflow-x: auto; padding: 2rem 5% 4rem; scroll-snap-type: x mandatory; }
+.product-card { flex: 0 0 400px; scroll-snap-align: center; background: white; border-radius: 12px; padding: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.05); border: 1px solid rgba(85,107,47,0.1); }
+.product-card img { width: 100%; height: 300px; object-fit: cover; border-radius: 8px; margin-bottom: 1.5rem; }
+.btn-primary { background: var(--primary); color: white; border: none; padding: 0.8rem 2rem; border-radius: 4px; cursor: pointer; text-transform: uppercase; font-weight: bold; width: 100%; margin-top: 1rem; }

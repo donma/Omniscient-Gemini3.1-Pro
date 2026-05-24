@@ -1,0 +1,802 @@
+[
+  {
+    "id": "template-001",
+    "folder": "template-001-beauty-studio",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-beauty-studio",
+    "reason": "符合美容美學產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-002",
+    "folder": "template-002-modern-restaurant",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-modern-restaurant",
+    "reason": "符合餐廳美食產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-003",
+    "folder": "template-003-fashion-boutique",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-fashion-boutique",
+    "reason": "符合時尚服飾產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-004",
+    "folder": "template-004-coffee-shop",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-coffee-shop",
+    "reason": "符合咖啡甜點產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-005",
+    "folder": "template-005-interior-design",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-interior-design",
+    "reason": "符合室內設計產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-006",
+    "folder": "template-006-flower-studio",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-flower-studio",
+    "reason": "符合花藝工作室產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-007",
+    "folder": "template-007-fitness-coach",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-fitness-coach",
+    "reason": "符合健身教練產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-008",
+    "folder": "template-008-clinic-wellness",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-clinic-wellness",
+    "reason": "符合醫療診所產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-009",
+    "folder": "template-009-creative-agency",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-creative-agency",
+    "reason": "符合設計公司產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-010",
+    "folder": "template-010-local-product-brand",
+    "oldLayout": "形象站",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-local-product-brand",
+    "reason": "符合商品展示產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-011",
+    "folder": "template-011-dental-clinic",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-dental-clinic",
+    "reason": "符合牙醫診所產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-012",
+    "folder": "template-012-pet-grooming",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-pet-grooming",
+    "reason": "符合寵物美容產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-013",
+    "folder": "template-013-law-consulting",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-law-consulting",
+    "reason": "符合法律顧問產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-014",
+    "folder": "template-014-accounting-office",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-accounting-office",
+    "reason": "符合會計記帳產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-015",
+    "folder": "template-015-language-school",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-language-school",
+    "reason": "符合語言教育產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-016",
+    "folder": "template-016-kindergarten",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-kindergarten",
+    "reason": "符合幼兒教育產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-017",
+    "folder": "template-017-music-studio",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-music-studio",
+    "reason": "符合音樂教室產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-018",
+    "folder": "template-018-photography-studio",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-photography-studio",
+    "reason": "符合攝影工作室產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-019",
+    "folder": "template-019-wedding-service",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-wedding-service",
+    "reason": "符合婚禮服務產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-020",
+    "folder": "template-020-spa-massage",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-spa-massage",
+    "reason": "符合SPA 按摩產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-021",
+    "folder": "template-021-bakery-brand",
+    "oldLayout": "Landing Page",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-bakery-brand",
+    "reason": "符合烘焙甜點產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-022",
+    "folder": "template-022-tea-brand",
+    "oldLayout": "app",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-tea-brand",
+    "reason": "符合茶飲品牌產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-023",
+    "folder": "template-023-handmade-craft",
+    "oldLayout": "editorial",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-handmade-craft",
+    "reason": "符合手作品牌產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-024",
+    "folder": "template-024-auto-detailing",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-auto-detailing",
+    "reason": "符合汽車美容產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-025",
+    "folder": "template-025-real-estate-agent",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-real-estate-agent",
+    "reason": "符合房仲業務產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-026",
+    "folder": "template-026-cleaning-service",
+    "oldLayout": "creative",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-cleaning-service",
+    "reason": "符合清潔服務產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-027",
+    "folder": "template-027-repair-service",
+    "oldLayout": "event",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-repair-service",
+    "reason": "符合維修服務產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-028",
+    "folder": "template-028-travel-agency",
+    "oldLayout": "app",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-travel-agency",
+    "reason": "符合旅遊行程產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-029",
+    "folder": "template-029-hotel-bnb",
+    "oldLayout": "editorial",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-hotel-bnb",
+    "reason": "符合民宿旅宿產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-030",
+    "folder": "template-030-farm-organic",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-farm-organic",
+    "reason": "符合農場有機產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-031",
+    "folder": "template-031-ai-saas-company",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-ai-saas-company",
+    "reason": "符合AI SaaS產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-033",
+    "folder": "template-033-cyber-security",
+    "oldLayout": "event",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-cyber-security",
+    "reason": "符合資安服務產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-044",
+    "folder": "template-044-video-production",
+    "oldLayout": "全螢幕版型",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-video-production",
+    "reason": "符合影視製作產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-051",
+    "folder": "template-051-personal-speaker",
+    "oldLayout": "個人形象版型",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-personal-speaker",
+    "reason": "符合個人講師產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-058",
+    "folder": "template-058-conference-event",
+    "oldLayout": "活動單頁",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-conference-event",
+    "reason": "符合展會活動產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-032",
+    "folder": "template-032-app-landing",
+    "oldLayout": "creative",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-app-landing",
+    "reason": "符合App 產品介紹產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-034",
+    "folder": "template-034-system-integrator",
+    "oldLayout": "app",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-system-integrator",
+    "reason": "符合系統整合產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-035",
+    "folder": "template-035-fintech-startup",
+    "oldLayout": "editorial",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-fintech-startup",
+    "reason": "符合金融科技產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-036",
+    "folder": "template-036-web3-crypto",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-web3-crypto",
+    "reason": "符合區塊鏈/加密貨幣產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-037",
+    "folder": "template-037-architecture-firm",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-architecture-firm",
+    "reason": "符合建築設計產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-038",
+    "folder": "template-038-fashion-brand",
+    "oldLayout": "creative",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-fashion-brand",
+    "reason": "符合時尚服飾產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-039",
+    "folder": "template-039-art-gallery",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-art-gallery",
+    "reason": "符合藝術畫廊產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-040",
+    "folder": "template-040-uiux-agency",
+    "oldLayout": "creative",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-uiux-agency",
+    "reason": "符合UI/UX 設計產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-041",
+    "folder": "template-041-film-festival",
+    "oldLayout": "dark-cinema",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-film-festival",
+    "reason": "符合影展/電影節產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-042",
+    "folder": "template-042-game-studio",
+    "oldLayout": "cyber",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-game-studio",
+    "reason": "符合遊戲工作室產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-043",
+    "folder": "template-043-indie-magazine",
+    "oldLayout": "editorial",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-indie-magazine",
+    "reason": "符合獨立雜誌產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-045",
+    "folder": "template-045-tech-blogger",
+    "oldLayout": "blog",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-tech-blogger",
+    "reason": "符合科技部落格產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-046",
+    "folder": "template-046-fitness-influencer",
+    "oldLayout": "personal-dark",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-fitness-influencer",
+    "reason": "符合健身網紅產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-047",
+    "folder": "template-047-independent-consultant",
+    "oldLayout": "corp-minimal",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-independent-consultant",
+    "reason": "符合獨立顧問產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-048",
+    "folder": "template-048-freelance-designer",
+    "oldLayout": "portfolio",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-freelance-designer",
+    "reason": "符合自由設計師產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-049",
+    "folder": "template-049-podcaster",
+    "oldLayout": "podcast",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-podcaster",
+    "reason": "符合播客頻道產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-050",
+    "folder": "template-050-financial-advisor",
+    "oldLayout": "corp",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-financial-advisor",
+    "reason": "符合理財顧問產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-052",
+    "folder": "template-052-music-festival",
+    "oldLayout": "event-dynamic",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-music-festival",
+    "reason": "符合音樂祭產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-053",
+    "folder": "template-053-art-exhibition",
+    "oldLayout": "event-minimal",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-art-exhibition",
+    "reason": "符合藝術展覽產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-054",
+    "folder": "template-054-sports-tournament",
+    "oldLayout": "event-bold",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-sports-tournament",
+    "reason": "符合體育賽事產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-055",
+    "folder": "template-055-startup-pitch",
+    "oldLayout": "event-corp",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-startup-pitch",
+    "reason": "符合新創發表會產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-056",
+    "folder": "template-056-tech-meetup",
+    "oldLayout": "event-light",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-tech-meetup",
+    "reason": "符合技術交流會產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-057",
+    "folder": "template-057-charity-gala",
+    "oldLayout": "event-elegant",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-charity-gala",
+    "reason": "符合慈善晚會產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-059",
+    "folder": "template-059-error-404",
+    "oldLayout": "utility",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-error-404",
+    "reason": "符合404 錯誤頁產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-060",
+    "folder": "template-060-coming-soon",
+    "oldLayout": "utility-dark",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-coming-soon",
+    "reason": "符合即將上線產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-061",
+    "folder": "template-061-tcm-clinic",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-tcm-clinic",
+    "reason": "符合中醫產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-062",
+    "folder": "template-062-counseling-center",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-counseling-center",
+    "reason": "符合心理諮商產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-063",
+    "folder": "template-063-physiotherapy",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-physiotherapy",
+    "reason": "符合物理治療產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-064",
+    "folder": "template-064-postpartum-care",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-postpartum-care",
+    "reason": "符合月子中心產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-065",
+    "folder": "template-065-health-supplements",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-health-supplements",
+    "reason": "符合保健食品產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-066",
+    "folder": "template-066-aesthetic-clinic",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-aesthetic-clinic",
+    "reason": "符合醫美診所產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-067",
+    "folder": "template-067-pediatric-dentistry",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-pediatric-dentistry",
+    "reason": "符合牙醫診所產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-068",
+    "folder": "template-068-health-checkup",
+    "oldLayout": "corporate",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-health-checkup",
+    "reason": "符合健檢中心產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-069",
+    "folder": "template-069-coding-bootcamp",
+    "oldLayout": "creative",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-coding-bootcamp",
+    "reason": "符合線上課程產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-070",
+    "folder": "template-070-bilingual-kindergarten",
+    "oldLayout": "creative",
+    "newLayoutFamily": "D. Masonry 作品牆",
+    "layoutProfile": "masonry-gallery-bilingual-kindergarten",
+    "reason": "符合幼兒園產業特性，採用D. Masonry 作品牆。"
+  },
+  {
+    "id": "template-071",
+    "folder": "template-071-language-exchange",
+    "oldLayout": "creative",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-language-exchange",
+    "reason": "符合語言學校產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-072",
+    "folder": "template-072-baking-class",
+    "oldLayout": "creative",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-baking-class",
+    "reason": "符合廚藝教室產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-073",
+    "folder": "template-073-driving-school",
+    "oldLayout": "creative",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-driving-school",
+    "reason": "符合駕訓班產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-074",
+    "folder": "template-074-yoga-training",
+    "oldLayout": "creative",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-yoga-training",
+    "reason": "符合瑜珈培訓產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-075",
+    "folder": "template-075-study-abroad",
+    "oldLayout": "creative",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-study-abroad",
+    "reason": "符合留學顧問產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-076",
+    "folder": "template-076-corporate-training",
+    "oldLayout": "creative",
+    "newLayoutFamily": "B. 左右分割 Split Layout",
+    "layoutProfile": "split-layout-corporate-training",
+    "reason": "符合企業培訓產業特性，採用B. 左右分割 Split Layout。"
+  },
+  {
+    "id": "template-077",
+    "folder": "template-077-luxury-watches",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-luxury-watches",
+    "reason": "符合精品手錶產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-078",
+    "folder": "template-078-scented-candles",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-scented-candles",
+    "reason": "符合香氛蠟燭產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-079",
+    "folder": "template-079-handmade-leather",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-handmade-leather",
+    "reason": "符合手工皮件產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-080",
+    "folder": "template-080-action-sports-brand",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-action-sports-brand",
+    "reason": "符合運動潮牌產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-081",
+    "folder": "template-081-organic-market",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-organic-market",
+    "reason": "符合生鮮超市產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-082",
+    "folder": "template-082-indie-bookstore",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-indie-bookstore",
+    "reason": "符合獨立書店產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-083",
+    "folder": "template-083-vintage-furniture",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-vintage-furniture",
+    "reason": "符合復古家具產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-084",
+    "folder": "template-084-designer-toys",
+    "oldLayout": "masonry",
+    "newLayoutFamily": "C. Magazine 雜誌式首頁",
+    "layoutProfile": "magazine-editorial-designer-toys",
+    "reason": "符合潮流玩具產業特性，採用C. Magazine 雜誌式首頁。"
+  },
+  {
+    "id": "template-085",
+    "folder": "template-085-escape-room",
+    "oldLayout": "event",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-escape-room",
+    "reason": "符合密室逃脫產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-086",
+    "folder": "template-086-immersive-theater",
+    "oldLayout": "event",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-immersive-theater",
+    "reason": "符合劇場表演產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-087",
+    "folder": "template-087-indie-rock-band",
+    "oldLayout": "event",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-indie-rock-band",
+    "reason": "符合獨立樂團產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-088",
+    "folder": "template-088-magic-show",
+    "oldLayout": "event",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-magic-show",
+    "reason": "符合魔術秀產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-089",
+    "folder": "template-089-standup-comedy",
+    "oldLayout": "event",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-standup-comedy",
+    "reason": "符合單口喜劇產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-090",
+    "folder": "template-090-esports-team",
+    "oldLayout": "event",
+    "newLayoutFamily": "E. 商品型 Grid Catalog",
+    "layoutProfile": "grid-catalog-esports-team",
+    "reason": "符合電競戰隊產業特性，採用E. 商品型 Grid Catalog。"
+  },
+  {
+    "id": "template-091",
+    "folder": "template-091-anime-convention",
+    "oldLayout": "event",
+    "newLayoutFamily": "J. Event / Campaign 活動型",
+    "layoutProfile": "event-campaign-anime-convention",
+    "reason": "符合動漫展產業特性，採用J. Event / Campaign 活動型。"
+  },
+  {
+    "id": "template-092",
+    "folder": "template-092-nightclub",
+    "oldLayout": "event",
+    "newLayoutFamily": "A. 大圖沉浸式 Hero",
+    "layoutProfile": "immersive-hero-nightclub",
+    "reason": "符合夜店酒吧產業特性，採用A. 大圖沉浸式 Hero。"
+  },
+  {
+    "id": "template-093",
+    "folder": "template-093-ai-data-analytics",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-ai-data-analytics",
+    "reason": "符合數據分析產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-094",
+    "folder": "template-094-legal-advisors",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-legal-advisors",
+    "reason": "符合法律顧問產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-095",
+    "folder": "template-095-cpa-firm",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "H. Editorial Split 文字導向",
+    "layoutProfile": "editorial-typography-cpa-firm",
+    "reason": "符合會計師產業特性，採用H. Editorial Split 文字導向。"
+  },
+  {
+    "id": "template-096",
+    "folder": "template-096-green-energy-tech",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "F. Storytelling 長卷軸",
+    "layoutProfile": "storytelling-scroll-green-energy-tech",
+    "reason": "符合環保科技產業特性，採用F. Storytelling 長卷軸。"
+  },
+  {
+    "id": "template-097",
+    "folder": "template-097-cold-chain-logistics",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-cold-chain-logistics",
+    "reason": "符合物流貨運產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-098",
+    "folder": "template-098-translation-agency",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-translation-agency",
+    "reason": "符合翻譯社產業特性，採用G. Bento Grid 現代資訊版。"
+  },
+  {
+    "id": "template-099",
+    "folder": "template-099-cybersecurity-consulting",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "I. Dashboard / Data 信任型",
+    "layoutProfile": "dashboard-data-cybersecurity-consulting",
+    "reason": "符合資安顧問產業特性，採用I. Dashboard / Data 信任型。"
+  },
+  {
+    "id": "template-100",
+    "folder": "template-100-crypto-exchange",
+    "oldLayout": "minimal",
+    "newLayoutFamily": "G. Bento Grid 現代資訊版",
+    "layoutProfile": "bento-grid-crypto-exchange",
+    "reason": "符合加密貨幣產業特性，採用G. Bento Grid 現代資訊版。"
+  }
+]

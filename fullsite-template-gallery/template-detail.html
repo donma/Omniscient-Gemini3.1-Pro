@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>樣板詳情 | 全職設計視角 | AI 網頁樣板庫</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 & Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/gallery.css">
+    
+    <style>
+        .glowing-blob {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 242, 254, 0.05) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+            pointer-events: none;
+        }
+        .blob-1 { top: -20%; right: -10%; }
+        .blob-2 { bottom: -20%; left: -10%; }
+    </style>
+</head>
+<body>
+
+    <div class="glowing-blob blob-1"></div>
+    <div class="glowing-blob blob-2"></div>
+
+    <!-- Header Navigation -->
+    <header class="gallery-header fixed-top">
+        <div class="container-fluid px-4 py-3 d-flex align-items-center justify-content-between">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+                <span class="fs-4 fw-bold brand-title"><i class="bi bi-palette-fill me-2 text-primary"></i>全職設計視角</span>
+            </a>
+            
+            <a href="index.html" class="btn btn-glass rounded-pill px-3"><i class="bi bi-arrow-left me-1"></i> 返回主頁</a>
+        </div>
+    </header>
+
+    <!-- Detail View Container -->
+    <div class="detail-container">
+        
+        <!-- Back link -->
+        <a href="index.html" class="detail-back-btn"><i class="bi bi-chevron-left"></i> 返回樣板列表</a>
+
+        <div class="row g-5">
+            <!-- Left: Large preview image -->
+            <div class="col-lg-7">
+                <div class="detail-img-card">
+                    <img id="detailImg" src="" alt="樣板首頁完整縮圖" class="detail-main-img">
+                </div>
+            </div>
+
+            <!-- Right: Details card -->
+            <div class="col-lg-5">
+                <div class="detail-info-card">
+                    <h1 id="detailName" class="display-6 fw-bold text-white mb-3"></h1>
+                    
+                    <div class="d-flex gap-2 mb-4">
+                        <span class="badge bg-primary px-3 py-2" id="detailIndustry" style="font-size: 0.85rem;"></span>
+                        <span class="badge bg-secondary text-white px-3 py-2" id="detailTheme" style="font-size: 0.85rem;"></span>
+                        <span class="badge bg-info text-white px-3 py-2" id="detailLayoutFamily" style="font-size: 0.85rem;"></span>
+                    </div>
+
+                    <p id="detailDesc" class="text-light fs-5 mb-4"></p>
+
+                    <!-- Buttons -->
+                    <div class="d-grid gap-3 mb-5">
+                        <a href="" id="detailDemoBtn" target="_blank" class="btn btn-premium btn-lg rounded-pill py-3"><i class="bi bi-eye-fill me-2"></i> 預覽實際網站</a>
+                        <a href="#" id="detailZipBtn" class="btn btn-glass btn-lg rounded-pill py-3"><i class="bi bi-file-zip me-2"></i> 打包下載 ZIP</a>
+                        <a href="" id="detailPromptBtn" target="_blank" class="btn btn-glass btn-lg rounded-pill py-3"><i class="bi bi-terminal me-2"></i> 查看 AI 生成 Prompt</a>
+                    </div>
+
+                    <!-- 12 Pages list -->
+                    <h3 class="h5 fw-bold text-white mb-3"><i class="bi bi-file-earmark-check-fill text-accent me-2"></i>包含的 12 個網頁</h3>
+                    <div class="row g-2">
+                        <div class="col-sm-6">
+                            <div class="list-pages-item"><span class="small">1. 官方首頁</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">2. 關於我們</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">3. 服務總覽</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">4. 服務詳情</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">5. 作品案例</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">6. 顧客好評</span> <i class="bi bi-check-circle-fill"></i></div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="list-pages-item"><span class="small">7. 常見問題</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">8. 預約須知</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">9. 流程介紹</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">10. 部落格列表</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">11. 文章內頁</span> <i class="bi bi-check-circle-fill"></i></div>
+                            <div class="list-pages-item"><span class="small">12. 聯絡我們</span> <i class="bi bi-check-circle-fill"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEO and technical details -->
+        <div class="row mt-5 pt-4">
+            <div class="col-lg-12">
+                <div class="p-4 rounded-4" style="background: var(--bg-card); border: 1px solid var(--border-card);">
+                    <h3 class="h4 fw-bold text-white mb-4"><i class="bi bi-gear-wide-connected text-accent me-2"></i>樣板技術與結構特色</h3>
+                    <div class="row g-4" style="color: var(--text-light);">
+                        <div class="col-md-4">
+                            <h5 class="text-white fw-bold"><i class="bi bi-shield-check text-primary me-2"></i> 強 SEO 結構</h5>
+                            <p class="small">全站採用 HTML5 語意化標籤，包含正確的 H1-H6 階層。首頁預載 LocalBusiness JSON-LD 結構化資料，助力客戶在 Google 地圖及搜尋引擎上的自然排名。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-white fw-bold"><i class="bi bi-tablet-landscape text-primary me-2"></i> RWD 響應式優化</h5>
+                            <p class="small">完美支援手機、平板、桌機三端。在行動端具備精美的漢堡收合選單、單欄自適應卡片，以及針對觸控操作特化的按鈕尺寸與觸控回饋。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="text-white fw-bold"><i class="bi bi-file-earmark-code text-primary me-2"></i> 乾淨無相依性原始碼</h5>
+                            <p class="small">完全基於 HTML5、Vanilla CSS3 及原生 JavaScript，禁止複雜的打包流程。設計師解壓縮後，即可用任何編輯器直接修改文字與圖檔交付客戶。</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 pt-3 border-top border-secondary">
+                        <h5 class="text-white fw-bold mb-2">功能標籤：</h5>
+                        <div id="detailTags">
+                            <!-- Populated via JS -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/gallery.js"></script>
+</body>
+</html>

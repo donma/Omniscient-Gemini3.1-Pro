@@ -1,0 +1,51 @@
+
+/* T01 Beauty Studio Custom CSS */
+:root {
+    --primary: #BCA38A;
+    --primary-hover: #A68B73;
+    --secondary: #FAF5F0;
+    --accent: #8C6A5C;
+    --bg: #FFFFFF;
+    --text: #4A3E3D;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Outfit', sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-heading); font-style: italic; }
+
+.navbar { padding: 1.5rem 0; background: rgba(255,255,255,0.9); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(0,0,0,0.05); }
+.nav-link { color: var(--text); font-weight: 400; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 1px; }
+
+/* Arch Hero Layout */
+.hero-section { min-height: 90vh; display: flex; align-items: center; position: relative; padding-top: 5rem; }
+.hero-content { z-index: 2; padding-right: 3rem; }
+.arch-image-container { position: relative; width: 100%; height: 700px; }
+.arch-image {
+    width: 100%; height: 100%; object-fit: cover;
+    border-radius: 200px 200px 0 0; /* Arch shape */
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+.floating-badge {
+    position: absolute; bottom: 40px; left: -40px;
+    background: var(--primary); color: white;
+    padding: 1.5rem; border-radius: 50%; width: 140px; height: 140px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; font-family: var(--font-heading); box-shadow: 0 10px 30px rgba(188,143,143,0.3);
+    animation: float 4s ease-in-out infinite;
+}
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-15px); } }
+
+/* Services Overlap */
+.services-section { margin-top: -100px; position: relative; z-index: 10; padding-bottom: 5rem; }
+.service-card {
+    background: white; padding: 2.5rem; border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05); transition: all 0.4s ease;
+    border-top: 4px solid var(--primary);
+    height: 100%;
+}
+.service-card:hover { transform: translateY(-10px); box-shadow: 0 25px 45px rgba(0,0,0,0.1); }
+
+.btn-custom { background: var(--primary); color: white; padding: 1rem 2.5rem; border-radius: 50px; text-decoration: none; display: inline-block; transition: 0.3s; }
+.btn-custom:hover { background: var(--text); color: white; }
+
+.footer { background: var(--text); color: white; padding: 4rem 0; text-align: center; }

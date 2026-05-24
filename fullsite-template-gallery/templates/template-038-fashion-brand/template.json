@@ -1,0 +1,10 @@
+{
+  "id": "template-038",
+  "slug": "fashion-brand",
+  "name": "Fashion Brand",
+  "industry": "時尚服飾",
+  "layoutFamily": "E. 商品型 Grid Catalog",
+  "layoutProfile": "combinatorial-hero-fullscreen-block_services_tabs-block_about_split-block_stats_counter",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

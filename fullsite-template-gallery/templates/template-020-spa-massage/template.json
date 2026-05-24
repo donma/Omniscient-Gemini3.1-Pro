@@ -1,0 +1,10 @@
+{
+  "id": "template-020",
+  "slug": "spa-massage",
+  "name": "SPA Massage",
+  "industry": "SPA 按摩",
+  "layoutFamily": "A. 大圖沉浸式 Hero",
+  "layoutProfile": "combinatorial-hero-centered-minimal-block_services_tabs-block_about_centered-block_portfolio_grid",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "template-067",
+  "slug": "pediatric-dentistry",
+  "name": "兒童專科牙醫",
+  "industry": "牙醫診所",
+  "layoutFamily": "B. 左右分割 Split Layout",
+  "layoutProfile": "combinatorial-hero-split-right-block_about_split-block_services_list-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

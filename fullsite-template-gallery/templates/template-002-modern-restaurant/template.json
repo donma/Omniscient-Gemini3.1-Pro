@@ -1,0 +1,10 @@
+{
+  "id": "template-002",
+  "slug": "modern-restaurant",
+  "name": "Modern Restaurant",
+  "industry": "餐廳美食",
+  "layoutFamily": "F. Storytelling 長卷軸",
+  "layoutProfile": "combinatorial-hero-split-left-block_services_tabs-block_about_centered-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

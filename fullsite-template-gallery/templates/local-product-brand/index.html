@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>undefined | Local Brand</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Outfit:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar"><a href="#" class="logo">undefined</a></nav>
+    <section class="hero-section">
+        <h1>Handcrafted with Care.</h1>
+        <p>Support local artisans and discover the finest handcrafted products made with sustainable materials and traditional techniques.</p>
+    </section>
+    <h2 style="padding-left: 5%; margin-bottom: 0;">Our Collection</h2>
+    <div class="carousel-container">
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1610731260205-0960cd42bb8a?auto=format&fit=crop&w=600&q=80">
+            <h3>Ceramic Mug</h3>
+            <p style="color: #666; margin-top: 0.5rem;">Hand-thrown clay mug with natural glaze.</p>
+            <p style="font-weight: bold; font-size: 1.2rem; margin-top: 1rem;">$24.00</p>
+            <button class="btn-primary">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1584346133934-a3afd2a33c4c?auto=format&fit=crop&w=600&q=80">
+            <h3>Woven Basket</h3>
+            <p style="color: #666; margin-top: 0.5rem;">Traditional rattan basket.</p>
+            <p style="font-weight: bold; font-size: 1.2rem; margin-top: 1rem;">$45.00</p>
+            <button class="btn-primary">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80">
+            <h3>Natural Soap</h3>
+            <p style="color: #666; margin-top: 0.5rem;">Organic cold-pressed essential oil soap.</p>
+            <p style="font-weight: bold; font-size: 1.2rem; margin-top: 1rem;">$12.00</p>
+            <button class="btn-primary">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- RWD Mobile Fixes & Hamburger Menu -->
+    <style>
+        .mobile-menu-btn { display: none; position: fixed; top: 20px; right: 20px; z-index: 10000; background: var(--primary, #000); color: #fff; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 24px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.3); align-items: center; justify-content: center; }
+        .mobile-offcanvas { position: fixed; top: 0; right: -100%; width: 280px; height: 100vh; background: var(--bg, #fff); z-index: 9999; padding: 6rem 2rem; transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1); box-shadow: -10px 0 30px rgba(0,0,0,0.2); border-left: 1px solid rgba(128,128,128,0.2); }
+        .mobile-offcanvas.open { right: 0; }
+        .mobile-offcanvas a { display: block; font-size: 1.5rem; color: var(--text, #000); text-decoration: none; margin-bottom: 2rem; font-family: var(--font-heading, sans-serif); text-transform: uppercase; letter-spacing: 2px; }
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: flex; }
+            .navbar > div:not(.logo), .navbar ul, .nav-links, .collapse.navbar-collapse { display: none !important; }
+            .side-nav { width: 100%; height: 80px; flex-direction: row; padding: 0 20px; border-bottom: 1px solid rgba(255,255,255,0.1); border-right: none; }
+            .side-nav .logo { writing-mode: horizontal-tb; transform: none; }
+            .side-nav > div, .side-nav .hamburger { display: none; }
+            .main-wrapper { margin-left: 0; margin-top: 80px; }
+            
+            /* Layout fallbacks */
+            h1 { font-size: 3rem !important; }
+            .hero-fs h1, .hero h1 { font-size: 3.5rem !important; line-height: 1.1 !important; }
+            .hero-content h1 { font-size: 3rem !important; }
+            .split-hero { flex-direction: column; height: auto; }
+            .split-left, .split-right { width: 100%; }
+            .split-left { padding: 4rem 2rem; }
+            .split-right { height: 400px; }
+            .grid-section, .hero-grid { grid-template-columns: 1fr !important; }
+            .bento-grid, .grid-2, .services-grid, .programs, .grid-menu { display: flex !important; flex-direction: column !important; gap: 2rem !important; }
+            .masonry { column-count: 1 !important; }
+            .bento-box { grid-column: auto !important; grid-row: auto !important; height: auto !important; min-height: 250px; }
+            .parallax-hero { background-attachment: scroll !important; }
+            .hero { padding: 4rem 2rem; flex-direction: column; }
+            .hero-bg, .organic-bg, .hero-glow { display: none; }
+            .polaroid { transform: none; margin-top: 2rem; }
+            .arch-image-container { height: 400px; margin-top: 3rem; }
+            .floating-badge { width: 100px; height: 100px; bottom: 10px; left: -10px; }
+        }
+    </style>
+    <button class="mobile-menu-btn" onclick="document.getElementById('mobMenu').classList.toggle('open')">☰</button>
+    <div id="mobMenu" class="mobile-offcanvas">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</body>
+</html>

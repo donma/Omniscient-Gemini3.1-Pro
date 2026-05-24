@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>undefined | Fitness & Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar"><a href="#" class="logo">undefined</a></nav>
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1>Push<br><span>Your</span><br>Limits.</h1>
+        </div>
+    </section>
+    <div class="marquee"><span>NO EXCUSES • NO LIMITS • GET STRONGER • NO EXCUSES • NO LIMITS • GET STRONGER • NO EXCUSES • NO LIMITS</span></div>
+    <section class="programs">
+        <div class="program-card">
+            <div>
+                <h3 style="color: var(--primary);">01.</h3>
+                <h3>Strength</h3>
+                <p style="color: #aaa;">Build muscle mass and increase your overall power with our heavy lifting programs.</p>
+            </div>
+        </div>
+        <div class="program-card">
+            <div>
+                <h3 style="color: var(--primary);">02.</h3>
+                <h3>Cardio</h3>
+                <p style="color: #aaa;">High-intensity interval training designed to burn fat and increase endurance.</p>
+            </div>
+        </div>
+        <div class="program-card">
+            <div>
+                <h3 style="color: var(--primary);">03.</h3>
+                <h3>Mobility</h3>
+                <p style="color: #aaa;">Improve flexibility and prevent injuries with targeted stretching routines.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RWD Mobile Fixes & Hamburger Menu -->
+    <style>
+        .mobile-menu-btn { display: none; position: fixed; top: 20px; right: 20px; z-index: 10000; background: var(--primary, #000); color: #fff; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 24px; cursor: pointer; box-shadow: 0 4px 10px rgba(0,0,0,0.3); align-items: center; justify-content: center; }
+        .mobile-offcanvas { position: fixed; top: 0; right: -100%; width: 280px; height: 100vh; background: var(--bg, #fff); z-index: 9999; padding: 6rem 2rem; transition: right 0.4s cubic-bezier(0.77,0.2,0.05,1); box-shadow: -10px 0 30px rgba(0,0,0,0.2); border-left: 1px solid rgba(128,128,128,0.2); }
+        .mobile-offcanvas.open { right: 0; }
+        .mobile-offcanvas a { display: block; font-size: 1.5rem; color: var(--text, #000); text-decoration: none; margin-bottom: 2rem; font-family: var(--font-heading, sans-serif); text-transform: uppercase; letter-spacing: 2px; }
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: flex; }
+            .navbar > div:not(.logo), .navbar ul, .nav-links, .collapse.navbar-collapse { display: none !important; }
+            .side-nav { width: 100%; height: 80px; flex-direction: row; padding: 0 20px; border-bottom: 1px solid rgba(255,255,255,0.1); border-right: none; }
+            .side-nav .logo { writing-mode: horizontal-tb; transform: none; }
+            .side-nav > div, .side-nav .hamburger { display: none; }
+            .main-wrapper { margin-left: 0; margin-top: 80px; }
+            
+            /* Layout fallbacks */
+            h1 { font-size: 3rem !important; }
+            .hero-fs h1, .hero h1 { font-size: 3.5rem !important; line-height: 1.1 !important; }
+            .hero-content h1 { font-size: 3rem !important; }
+            .split-hero { flex-direction: column; height: auto; }
+            .split-left, .split-right { width: 100%; }
+            .split-left { padding: 4rem 2rem; }
+            .split-right { height: 400px; }
+            .grid-section, .hero-grid { grid-template-columns: 1fr !important; }
+            .bento-grid, .grid-2, .services-grid, .programs, .grid-menu { display: flex !important; flex-direction: column !important; gap: 2rem !important; }
+            .masonry { column-count: 1 !important; }
+            .bento-box { grid-column: auto !important; grid-row: auto !important; height: auto !important; min-height: 250px; }
+            .parallax-hero { background-attachment: scroll !important; }
+            .hero { padding: 4rem 2rem; flex-direction: column; }
+            .hero-bg, .organic-bg, .hero-glow { display: none; }
+            .polaroid { transform: none; margin-top: 2rem; }
+            .arch-image-container { height: 400px; margin-top: 3rem; }
+            .floating-badge { width: 100px; height: 100px; bottom: 10px; left: -10px; }
+        }
+    </style>
+    <button class="mobile-menu-btn" onclick="document.getElementById('mobMenu').classList.toggle('open')">☰</button>
+    <div id="mobMenu" class="mobile-offcanvas">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "id": "template-082",
+  "slug": "indie-bookstore",
+  "name": "巷弄獨立書店",
+  "industry": "獨立書店",
+  "layoutFamily": "C. Magazine 雜誌式首頁",
+  "layoutProfile": "combinatorial-hero-split-left-block_about_centered-block_services_list-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

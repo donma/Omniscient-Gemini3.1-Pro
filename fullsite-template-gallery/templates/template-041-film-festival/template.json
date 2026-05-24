@@ -1,0 +1,10 @@
+{
+  "id": "template-041",
+  "slug": "film-festival",
+  "name": "Film Festival",
+  "industry": "影展/電影節",
+  "layoutFamily": "J. Event / Campaign 活動型",
+  "layoutProfile": "combinatorial-hero-centered-minimal-block_services_tabs-block_about_centered-block_portfolio_masonry",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

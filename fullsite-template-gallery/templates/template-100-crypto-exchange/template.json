@@ -1,0 +1,10 @@
+{
+  "id": "template-100",
+  "slug": "crypto-exchange",
+  "name": "區塊鏈加密交易所",
+  "industry": "加密貨幣",
+  "layoutFamily": "G. Bento Grid 現代資訊版",
+  "layoutProfile": "combinatorial-hero-centered-minimal-block_about_centered-block_services_list-block_portfolio_grid",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

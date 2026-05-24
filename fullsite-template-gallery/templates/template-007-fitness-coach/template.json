@@ -1,0 +1,10 @@
+{
+  "id": "template-007",
+  "slug": "fitness-coach",
+  "name": "Fitness Coach",
+  "industry": "健身教練",
+  "layoutFamily": "H. Editorial Split 文字導向",
+  "layoutProfile": "combinatorial-hero-magazine-block_about_split-block_services_list-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

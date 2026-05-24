@@ -1,0 +1,29 @@
+
+/* T04 Coffee Shop Custom CSS */
+:root {
+    --primary: #8C6239;
+    --bg: #F4F1EA;
+    --text: #3E2723;
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Outfit', sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 700; color: var(--primary); }
+
+.navbar { padding: 1.5rem 5%; display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 2rem; font-weight: 800; color: var(--primary); text-decoration: none; }
+.nav-links a { color: var(--text); text-decoration: none; margin-left: 2rem; font-weight: 500; }
+
+.hero { display: grid; grid-template-columns: 1fr 1fr; padding: 5%; gap: 4rem; align-items: center; min-height: 80vh; }
+.hero h1 { font-size: 5rem; line-height: 1.1; margin-bottom: 2rem; color: var(--text); }
+.polaroid { 
+    background: #fff; padding: 1rem 1rem 4rem 1rem; 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1); 
+    transform: rotate(3deg); transition: 0.5s;
+}
+.polaroid:hover { transform: rotate(0deg) scale(1.05); }
+.polaroid img { width: 100%; height: 500px; object-fit: cover; }
+
+.grid-menu { padding: 5%; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.menu-item { text-align: center; background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+.menu-item img { width: 120px; height: 120px; border-radius: 50%; margin-bottom: 1rem; object-fit: cover; }

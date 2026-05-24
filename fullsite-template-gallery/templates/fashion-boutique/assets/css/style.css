@@ -1,0 +1,32 @@
+
+/* T03 Fashion Boutique Custom CSS - Dark Editorial */
+:root {
+    --primary: #FFD700;
+    --bg: #0A0A0A;
+    --text: #F5F5F5;
+    --font-heading: 'Bodoni Moda', 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); margin: 0; padding: 0; overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; text-transform: uppercase; }
+
+/* Navbar */
+.navbar { position: fixed; width: 100%; top: 0; padding: 2rem 4rem; display: flex; justify-content: space-between; z-index: 100; mix-blend-mode: difference; color: white; }
+.navbar a { color: white; text-decoration: none; text-transform: uppercase; letter-spacing: 2px; font-size: 0.8rem; margin-left: 2rem; }
+.logo { font-size: 1.5rem; font-family: var(--font-heading); letter-spacing: 4px; }
+
+/* Split Screen Hero */
+.split-hero { display: flex; height: 100vh; width: 100%; }
+.split-left { width: 50%; display: flex; flex-direction: column; justify-content: center; padding: 6rem; background: var(--bg); color: var(--text); }
+.split-right { width: 50%; background: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80') center/cover; filter: grayscale(50%); }
+
+.split-left h1 { font-size: 6vw; line-height: 1; margin-bottom: 2rem; letter-spacing: -2px; }
+.btn-outline { border: 1px solid var(--text); padding: 1rem 3rem; text-transform: uppercase; letter-spacing: 2px; text-decoration: none; color: var(--text); display: inline-block; margin-top: 2rem; transition: 0.3s; }
+.btn-outline:hover { background: var(--text); color: var(--bg); }
+
+/* Lookbook Grid */
+.lookbook { padding: 8rem 4rem; background: #0F0F0F; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+.grid-item img { width: 100%; height: 800px; object-fit: cover; filter: brightness(0.8); transition: 0.5s; }
+.grid-item:hover img { filter: brightness(1.1); }
+.grid-item.offset { margin-top: 10rem; }

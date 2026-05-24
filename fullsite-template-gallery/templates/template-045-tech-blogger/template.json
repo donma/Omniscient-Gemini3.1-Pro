@@ -1,0 +1,10 @@
+{
+  "id": "template-045",
+  "slug": "tech-blogger",
+  "name": "Tech Blogger",
+  "industry": "科技部落格",
+  "layoutFamily": "G. Bento Grid 現代資訊版",
+  "layoutProfile": "combinatorial-hero-magazine-block_services_tabs-block_about_split-block_process_steps",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

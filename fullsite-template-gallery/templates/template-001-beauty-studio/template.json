@@ -1,0 +1,10 @@
+{
+  "id": "template-001",
+  "slug": "beauty-studio",
+  "name": "Beauty Studio",
+  "industry": "美容美學",
+  "layoutFamily": "A. 大圖沉浸式 Hero",
+  "layoutProfile": "combinatorial-hero-fullscreen-block_about_split-block_services_list-block_stats_counter",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

@@ -1,0 +1,24 @@
+
+/* T06 Flower Studio Custom CSS */
+:root {
+    --primary: #D4A373;
+    --bg: #FAEDCD;
+    --text: #5A4033;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Outfit', sans-serif;
+}
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); overflow-x: hidden; }
+h1, h2, h3 { font-family: var(--font-heading); font-weight: 400; color: #8A5A44; }
+
+.navbar { display: flex; justify-content: center; padding: 2rem; position: relative; z-index: 10; }
+.logo { font-size: 2.5rem; color: var(--text); text-decoration: none; font-family: var(--font-heading); font-style: italic; }
+
+.organic-hero { position: relative; height: 90vh; display: flex; align-items: center; justify-content: center; text-align: center; }
+.organic-bg { position: absolute; width: 100%; height: 100%; top: 0; left: 0; z-index: -1; opacity: 0.5; background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><path fill="%23FEFAE0" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,81.4,-46.1C91,-33.1,97.2,-16.6,97.6,0.2C98,17,92.6,34,82.4,47.8C72.2,61.6,57.1,72.2,40.9,80.1C24.7,88,-7.4,93.2,-23.7,87.7C-40,82.2,-60.5,66,-73.4,48.2C-86.3,30.4,-91.6,15.2,-91.4,0.1C-91.2,-15,-85.5,-30,-75.4,-42.6C-65.3,-55.2,-50.8,-65.4,-36.1,-72.1C-21.4,-78.8,-6.5,-82,9.3,-81.8C25.1,-81.6,40.9,-78,44.7,-76.4Z" transform="translate(100 100)" /></svg>') center/contain no-repeat; }
+
+.hero-content h1 { font-size: 5rem; line-height: 1.2; margin-bottom: 2rem; }
+.btn-primary { background: var(--primary); color: white; border: none; padding: 1rem 3rem; border-radius: 50px; font-size: 1.1rem; cursor: pointer; }
+
+.gallery { padding: 5rem; display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+.flower-card { width: 300px; text-align: center; }
+.flower-card img { width: 300px; height: 400px; object-fit: cover; border-radius: 150px 150px 0 0; margin-bottom: 1.5rem; box-shadow: 0 10px 20px rgba(0,0,0,0.05); }

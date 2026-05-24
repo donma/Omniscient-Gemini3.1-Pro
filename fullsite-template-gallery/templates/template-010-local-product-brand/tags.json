@@ -1,0 +1,27 @@
+{
+  "industry": [
+    "商品展示",
+    "在地品牌",
+    "文創品牌"
+  ],
+  "colors": [
+    "綠色自然",
+    "淺色系",
+    "暖米色"
+  ],
+  "features": [
+    "Slider Banner",
+    "商品分類",
+    "生產故事",
+    "顧客好評",
+    "FAQ",
+    "Line/IG 詢問",
+    "強 SEO"
+  ],
+  "layout": [
+    "Magazine 雜誌式首頁",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "零售商品"
+}

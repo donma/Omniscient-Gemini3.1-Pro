@@ -1,0 +1,10 @@
+{
+  "id": "template-066",
+  "slug": "aesthetic-clinic",
+  "name": "雷射醫美診所",
+  "industry": "醫美診所",
+  "layoutFamily": "B. 左右分割 Split Layout",
+  "layoutProfile": "combinatorial-hero-split-left-block_about_centered-block_stats_counter-block_services_grid3",
+  "layoutRevision": "phase4.1-combinatorial-v8",
+  "layoutChanged": true
+}

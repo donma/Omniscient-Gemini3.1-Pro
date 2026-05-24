@@ -1,0 +1,27 @@
+{
+  "industry": [
+    "咖啡甜點",
+    "下午茶咖啡",
+    "食品餐飲"
+  ],
+  "colors": [
+    "暖棕生活",
+    "淺色系",
+    "木質調"
+  ],
+  "features": [
+    "Slider Banner",
+    "菜單展示",
+    "環境介紹",
+    "品牌故事",
+    "FAQ",
+    "地圖區塊",
+    "Instagram 牆"
+  ],
+  "layout": [
+    "商品型 Grid Catalog",
+    "專業信任導向",
+    "服務型網站"
+  ],
+  "industryCategory": "餐飲甜點"
+}
