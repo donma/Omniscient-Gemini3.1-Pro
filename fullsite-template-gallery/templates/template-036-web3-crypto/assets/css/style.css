@@ -142,7 +142,7 @@
         .main-nav { display: none; }
         @media (min-width: 992px) {
           .main-nav { display: flex; align-items: center; }
-          .main-nav a { position: relative; margin-left: 28px; font-weight: 500; padding: 5px 0; transition: color 0.3s; color: #FFFFFF; }
+          .main-nav a { white-space: nowrap;  position: relative; margin-left: 28px; font-weight: 500; padding: 5px 0; transition: color 0.3s; color: #FFFFFF; }
           .main-nav a:not(.btn)::after { content: ''; position: absolute; width: 0; height: 2px; bottom: 0; left: 0; background-color: var(--brand-primary); transition: width 0.3s ease; }
           .main-nav a:not(.btn):hover::after { width: 100%; }
           .main-nav a.btn { margin-left: 28px; padding: 10px 24px; color: var(--text-light); }
